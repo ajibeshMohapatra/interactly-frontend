@@ -1,0 +1,72 @@
+.fvlFFi {
+    cursor: pointer;
+    height: calc(100vh - 8px);
+    width: 50vw;
+    object-fit: cover;
+    opacity: 1;
+    background: transparent;
+  }
+  
+  .btn2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 100%;
+    border-color: transparent;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+  }
+
+  .control {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 53%;
+    z-index: 1;
+  }
+
+  .progressContainer{
+    height: 8px;
+    width: 50vw;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .progress {
+    height: 100%;
+    width: 0;
+    background: rgb(125,0,254);
+  }
+
+  .controlBtn {
+    margin: 5px;
+  }
+
+  .btn1 {
+    font-weight: bold;
+    border-radius: 10%;
+    border-color: transparent;
+    padding: 2px 4px;
+  }
+  ::cue {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .fvlFFi {
+        width: 100vw;
+    }
+    .progressContainer{
+        width: 100vw;
+    }
+    .btn2{
+        left: 50%;
+        padding: 10px;
+    }
+    .control{
+        right: 10%;
+    }
+}
